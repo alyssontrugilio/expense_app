@@ -1,16 +1,21 @@
-# expense_app
 
-A new Flutter project.
+# Expense App
 
-## Getting Started
+Um aplicativo simples e eficiente para controle de despesas pessoais, desenvolvido com Flutter no frontend e SupaBase no backend. Este projeto foi criado como um desafio pessoal para aprimorar minhas habilidades de desenvolvimento e explorar novas tecnologias.
 
-This project is a starting point for a Flutter application.
+## Funcionalidades Planejadas
+- Cadastro e gerenciamento de despesas.
+- Visualização de gráficos e relatórios financeiros.
+- Integração com autenticação via SupaBase.
+- Organização por categorias e filtros personalizados.
 
-A few resources to get you started if this is your first Flutter project:
+## Estrutura do Projeto
+- Frontend: Desenvolvido em Flutter para garantir uma interface fluida, responsiva e moderna.
+- Backend: Utilizando SupaBase para autenticação e gerenciamento de banco de dados.
+## Design
+O design do aplicativo foi criado no Figma e pode ser acessado no link abaixo:
+[Link do projeto](https://www.figma.com/community/file/1080339303735258826/income-expense-tracker-app)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Objetivo
+Este projeto tem como objetivo principal me desafiar como desenvolvedor e permitir que eu melhore minhas habilidades técnicas em Flutter, design e integração de backend com SupaBase.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
