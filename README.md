@@ -4,7 +4,7 @@
 Um aplicativo simples e eficiente para controle de despesas pessoais, desenvolvido com Flutter no frontend e SupaBase no backend. Este projeto foi criado como um desafio pessoal para aprimorar minhas habilidades de desenvolvimento e explorar novas tecnologias.
 
 ## Funcionalidades Planejadas
-- Cadastro e gerenciamento de despesas.
+- Cadastro e gerenciamento de de    spesas.
 - Visualização de gráficos e relatórios financeiros.
 - Integração com autenticação via SupaBase.
 - Organização por categorias e filtros personalizados.
