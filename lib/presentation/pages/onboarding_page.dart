@@ -1,8 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import '../widgets/widgets.dart';
 
 class OnboardingPage extends StatelessWidget {
   const OnboardingPage({super.key});
@@ -15,11 +16,15 @@ class OnboardingPage extends StatelessWidget {
         children: [
           Expanded(
             flex: 3,
-            child: Container(
+            child: ColoredBox(
               color: const Color(0xffEEF8F7),
               child: Stack(
                 children: [
                   SvgPicture.asset('assets/svg/ellipses.svg'),
+                  Image.asset(
+                    'assets/png/onboarding_image.png',
+                    fit: BoxFit.cover,
+                  )
                 ],
               ),
             ),
@@ -38,21 +43,9 @@ class OnboardingPage extends StatelessWidget {
                     color: Theme.of(context).primaryColor,
                   ),
                 ),
-                SizedBox(
-                  width: 358,
-                  height: 67,
-                  child: FilledButton(
-                    onPressed: () {},
-                    style: const ButtonStyle(),
-                    child: Text(
-                      'Comece agora',
-                      style: GoogleFonts.inter(
-                        color: Colors.white,
-                        fontSize: 18,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                  ),
+                PrimaryButtonWidget(
+                  text: 'Comece agora',
+                  onPressed: () {},
                 ),
                 GestureDetector(
                   onTap: () {},
